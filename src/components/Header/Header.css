@@ -1,0 +1,28 @@
+nav{
+    background-color: #1C2B35;
+    padding: 15px 60px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img{
+    /* margin-left: 45px; */
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin-right: 20px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: #FF9900;
+}

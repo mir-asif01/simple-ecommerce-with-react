@@ -1,0 +1,15 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.order-container{
+    background-color: #f7ba5e;
+    text-align: center;
+    position: fixed;
+    right: 0%;
+    padding: 0px 10px;
+}
